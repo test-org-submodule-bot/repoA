@@ -1,3 +1,6 @@
 [submodule "repoB"]
 	path = repoB
 	url = git@github.com:test-org-submodule-bot/repoB.git
+[submodule "repoC"]
+	path = repoC
+	url = https://github.com/test-org-submodule-bot/repoC.git

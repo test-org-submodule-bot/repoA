@@ -1,3 +1,5 @@
-const { version } = require("./repoB");
+const repoB = require("./repoB");
+const repoC = require("./repoB");
 
-console.log(version());
+console.log(`repoB is at [${repoB.version()}]`);
+console.log(`repoC is at [${repoC.version()}]`);
